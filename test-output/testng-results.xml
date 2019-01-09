@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="117955" started-at="2019-01-03T09:58:20Z" finished-at="2019-01-03T10:00:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="117955" started-at="2019-01-03T09:58:20Z" finished-at="2019-01-03T10:00:18Z">
+      <class name="testSuite.RestaurantSearchTest">
+        <test-method status="PASS" signature="blankSearchTest()[pri:0, instance:testSuite.RestaurantSearchTest@7823a2f9]" name="blankSearchTest" duration-ms="29510" started-at="2019-01-03T09:58:20Z" finished-at="2019-01-03T09:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankSearchTest -->
+        <test-method status="PASS" signature="restaurantSearchUsingPostCodeAndBangladeshiCuisineTest()[pri:0, instance:testSuite.RestaurantSearchTest@7823a2f9]" name="restaurantSearchUsingPostCodeAndBangladeshiCuisineTest" duration-ms="23174" started-at="2019-01-03T09:58:50Z" finished-at="2019-01-03T09:59:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restaurantSearchUsingPostCodeAndBangladeshiCuisineTest -->
+        <test-method status="PASS" signature="restaurantSearchUsingPostalCodeTest()[pri:0, instance:testSuite.RestaurantSearchTest@7823a2f9]" name="restaurantSearchUsingPostalCodeTest" duration-ms="17559" started-at="2019-01-03T09:59:13Z" finished-at="2019-01-03T09:59:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restaurantSearchUsingPostalCodeTest -->
+        <test-method status="PASS" signature="restaurantSearchUsingTownTest()[pri:0, instance:testSuite.RestaurantSearchTest@7823a2f9]" name="restaurantSearchUsingTownTest" duration-ms="20480" started-at="2019-01-03T09:59:31Z" finished-at="2019-01-03T09:59:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restaurantSearchUsingTownTest -->
+        <test-method status="PASS" signature="verifyRestaurantListingOnSearchResultPageTest()[pri:0, instance:testSuite.RestaurantSearchTest@7823a2f9]" name="verifyRestaurantListingOnSearchResultPageTest" duration-ms="27184" started-at="2019-01-03T09:59:51Z" finished-at="2019-01-03T10:00:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRestaurantListingOnSearchResultPageTest -->
+      </class> <!-- testSuite.RestaurantSearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

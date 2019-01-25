@@ -41,6 +41,7 @@ public class Footer {
 		} catch (NoSuchElementException e) {
 			System.out.println(tag +"  No such element exception occured");
 		}
+		
 		catch (Exception e) {
 			System.out.println(tag + "exception occured");
 		}
